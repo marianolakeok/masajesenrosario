@@ -1,0 +1,30 @@
+.main-nav {
+  background: $grey-borders;
+  box-shadow: 0px 5px 10px 0px $shadow;
+  ul {
+    width:100%;
+    padding: 10px 0;
+    text-align: center;
+    @media #{$desktop}{
+      padding: 20px 0;
+    }
+    li {
+      display: inline;
+      width: 100%;
+      text-align: center;
+      margin: 0 10px;
+      a {
+        @include montserrat-bold($primary-text, 12px);
+        text-transform: uppercase;
+        text-decoration: none;
+        cursor: pointer;
+        &.active {
+          color: $blue!important;
+        }
+        @media #{$desktop}{
+          @include montserrat-bold($primary-text, 16px);
+        }
+      }
+    }
+  }
+}

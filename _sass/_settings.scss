@@ -1,0 +1,57 @@
+// VARIABLES
+
+// App Palette colors
+// Texts and Backgrounds
+$primary-text: #454F53;
+$medium-dark-grey: #8499a3;
+$grey-borders: #e8eced;
+$shadow: rgba(4,47,66,0.20);
+// Accents
+$blue: #14abb3;
+
+// Misc Colors
+$full-white: #fff;
+$full-black: #000;
+$yellow: #ff0;
+$affirmative: #0bb276;
+$negative: #de2d40;
+$caution: #f6a11d;
+
+// Values
+$line-height: 4px;
+
+// Mediaquery
+$small-mobile: "screen and (min-width: 320px)";
+$mobile: "screen and (min-width: 375px)";
+$large-mobile: "screen and (min-width: 414px)";
+$tablet: "screen and (min-width: 768px)";
+$desktop: "screen and (min-width: 1024px)";
+$big-desktop: "screen and (min-width: 1280px)";
+$large-desktop: "screen and (min-width: 1440px)";
+
+// MIXINS
+// Just the font family
+@mixin merriweather($color, $size) {
+  font-family: 'Merriweather', sans-serif;
+  font-size: $size !important;
+  font-weight: 700 !important;
+  color: $color !important;
+  line-height: $size + $line-height !important;
+}
+
+@mixin montserrat($color, $size) {
+  font-family: 'Montserrat', sans-serif;
+  font-size: $size !important;
+  font-weight: 400 !important;
+  color: $color !important;
+  line-height: $size + $line-height !important;
+}
+
+@mixin montserrat-bold($color, $size) {
+  font-family: 'Montserrat', sans-serif;
+  font-size: $size !important;
+  font-weight: 700 !important;
+  color: $color !important;
+  line-height: $size + $line-height !important;
+}
+

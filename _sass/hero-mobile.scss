@@ -1,0 +1,9 @@
+.hero-mobile {
+  @media #{$tablet} {
+    display: none;
+  }
+  img {
+    width: 100%;
+    display: block;
+  }
+}

@@ -1,0 +1,61 @@
+header {
+  background: $full-black;
+  padding: 20px 0;
+  position: relative;
+  .logo {
+    float: left;
+    width: 100%;
+    @media #{$tablet}{
+      width: 40%;
+    }
+    h1 {
+      @include merriweather($full-white, 24px);
+      margin-bottom: 5px;
+      @media #{$desktop}{
+        @include merriweather($full-white, 30px);
+        margin-bottom: 10px;
+      }
+    }
+    h2 {
+      @include montserrat-bold($full-white, 12px);
+      text-transform: uppercase;
+      @media #{$desktop}{
+        @include montserrat-bold($full-white, 16px);
+      }
+    }
+  }
+  .phone {
+    display: none;
+    @include montserrat-bold($full-white, 12px);
+    text-transform: uppercase;
+    a {
+      color: $full-white;
+      text-decoration: none;
+    }
+    @media #{$tablet} {
+      display: block;
+      width: 60%;
+      float: right;
+      text-align: right;
+      img {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        position: relative;
+        top: 5px;
+        margin: 0 0 0 10px;
+      }
+    }
+    @media #{$desktop}{
+      @include montserrat-bold($full-white, 16px);
+      img {
+        width: 36px;
+        height: 36px;
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        margin: 0 0 0 10px;
+      }
+    }
+  }
+}

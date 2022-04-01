@@ -1,3 +1,20 @@
-body {
-  background: red;
-}
+// App reset and settings:
+@import '_settings';
+@import '_reset';
+
+// app layout and common blocks
+@import 'layout';
+@import 'header';
+@import 'footer';
+
+// shared blocks
+@import 'nav';
+// slideshow
+
+// section blocks
+@import 'hero';
+@import 'hero-mobile';
+@import 'turnos';
+@import 'trayectoria';
+
+//landing pages

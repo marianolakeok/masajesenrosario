@@ -1,0 +1,40 @@
+body {
+  background: $full-white;
+  @include montserrat($primary-text, 16px);
+}
+
+a {
+  color: $blue;
+  text-decoration: underline;
+}
+
+.container {
+  width: calc(100% - 40px);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+section.content {
+  .container {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  h1 {
+    @include merriweather($primary-text, 20px);
+    margin: 0 0 20px;
+    @media #{$desktop}{
+      @include merriweather($primary-text, 30px);
+    }
+  }
+  p {
+    margin: 0 0 20px;
+  }
+}
+
+.hidden {
+  display: none;
+}

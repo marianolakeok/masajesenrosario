@@ -1,0 +1,11 @@
+.hero {
+  display: none;
+  @media #{$tablet}{
+    display: block;
+    position: relative;
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+}

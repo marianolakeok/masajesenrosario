@@ -1,0 +1,28 @@
+footer {
+  background: $full-black;
+  padding: 20px 0;
+  h2 {
+    @include merriweather($full-white, 18px);
+    margin: 0 0 5px;
+  }
+  h3 {
+    @include montserrat-bold($full-white, 12px);
+    margin: 0;
+    text-transform: uppercase;
+  }
+  .floater-left {
+    width: 60%;
+  }
+  .floater-right {
+    width: 40%;
+    text-align: right;
+    img {
+      width: 28px;
+      height: 28px;
+    }
+    small {
+      @include montserrat-bold($full-white, 11px);
+      display: block;
+    }
+  }
+}
