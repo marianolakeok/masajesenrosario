@@ -32,7 +32,7 @@ $large-desktop: "screen and (min-width: 1440px)";
 // MIXINS
 // Just the font family
 @mixin merriweather($color, $size) {
-  font-family: 'Merriweather', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: $size !important;
   font-weight: 700 !important;
   color: $color !important;
@@ -54,4 +54,3 @@ $large-desktop: "screen and (min-width: 1440px)";
   color: $color !important;
   line-height: $size + $line-height !important;
 }
-
