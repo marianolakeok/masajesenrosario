@@ -618,6 +618,16 @@ footer {
 
 section#turnos .map img {
   width: 100%; }
+@media screen and (min-width: 1024px) {
+  section#turnos .details {
+    width: 40%;
+    float: left; }
+  section#turnos .map {
+    width: 50%;
+    float: right; }
+    section#turnos .map img {
+      border: 3px solid #fff;
+      box-shadow: 0 0 10px rgba(4, 47, 66, 0.2); } }
 
 @media screen and (min-width: 1024px) {
   section#trayectoria .tiempo {
