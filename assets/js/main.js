@@ -48,23 +48,7 @@ function init(){
   }
   
   startListeners();
-  //showHideSections();  
 }
-
-
-// Start Listeners
-// function showHideSections(){
-//   document.querySelector('.main-nav a.masajes').addEventListener('click', function(target){
-//     const navLinks = document.querySelectorAll('.main-nav a');
-//     console.log(typeof navLinks);
-//     navLinks.forEach(function(element){
-//       console.log(element);
-//       element.classList.remove('active');
-//     })
-//     console.log(target);
-//     // document.querySelector(this).classList.add('active');
-//   })
-// }
 
 document.onreadystatechange = function () {
   if (document.readyState === 'complete') {

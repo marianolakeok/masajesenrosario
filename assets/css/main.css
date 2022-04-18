@@ -607,7 +607,65 @@ footer {
       position: relative; }
       .hero img {
         width: 100%;
-        display: block; } }
+        display: block; }
+      .hero .hero-copy {
+        position: absolute;
+        top: 20%;
+        left: 0;
+        width: 100%;
+        text-align: center; } }
+    @media screen and (min-width: 768px) and (min-width: 1024px) {
+      .hero .hero-copy {
+        top: 25%; } }
+  @media screen and (min-width: 768px) {
+        .hero .hero-copy h1 {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 30px !important;
+          font-weight: 700 !important;
+          color: #fff !important;
+          line-height: 34px !important;
+          text-transform: uppercase;
+          text-shadow: 1px 1px 1px rgba(4, 47, 66, 0.2);
+          line-height: 38px !important;
+          margin: 20px 0; } }
+      @media screen and (min-width: 768px) and (min-width: 1024px) {
+        .hero .hero-copy h1 {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 42px !important;
+          font-weight: 700 !important;
+          color: #fff !important;
+          line-height: 46px !important;
+          line-height: 50px !important;
+          text-shadow: 2px 2px 2px rgba(4, 47, 66, 0.9); } }
+  @media screen and (min-width: 768px) {
+        .hero .hero-copy h2 {
+          color: #fff !important;
+          padding: 0 20px 10px;
+          text-shadow: 1px 1px 1px rgba(4, 47, 66, 0.2); } }
+      @media screen and (min-width: 768px) and (min-width: 1024px) {
+        .hero .hero-copy h2 {
+          font-size: 20px !important;
+          text-shadow: 2px 2px 2px rgba(4, 47, 66, 0.9); } }
+  @media screen and (min-width: 768px) {
+        .hero .hero-copy h3 {
+          margin: 10px 0;
+          padding: 0 20px 10px; }
+          .hero .hero-copy h3 a {
+            padding: 10px 15px;
+            background: #0bb276;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px !important;
+            font-weight: 700 !important;
+            color: #fff !important;
+            line-height: 22px !important;
+            line-height: 26px !important;
+            text-transform: uppercase;
+            width: auto;
+            display: inline-block;
+            border-radius: 8px;
+            text-decoration: none;
+            cursor: pointer;
+            text-shadow: 2px 2px 2px rgba(4, 47, 66, 0.2); } }
 
 @media screen and (min-width: 768px) {
   .hero-mobile {
@@ -615,6 +673,40 @@ footer {
 .hero-mobile img {
   width: 100%;
   display: block; }
+
+section.home-mobile {
+  background: #e8eced;
+  text-align: center;
+  padding: 20px 20px; }
+  section.home-mobile h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 28px !important;
+    margin-bottom: 20px; }
+  section.home-mobile h2 {
+    padding: 0 20px 10px; }
+  section.home-mobile h3 {
+    margin: 10px 0;
+    padding: 0 20px 10px; }
+    section.home-mobile h3 a {
+      padding: 10px 15px;
+      background: #0bb276;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px !important;
+      font-weight: 700 !important;
+      color: #fff !important;
+      line-height: 22px !important;
+      line-height: 26px !important;
+      text-transform: uppercase;
+      width: auto;
+      display: inline-block;
+      border-radius: 8px;
+      text-decoration: none;
+      cursor: pointer;
+      text-shadow: 1px 1px 1px rgba(4, 47, 66, 0.2); }
+  @media screen and (min-width: 768px) {
+    section.home-mobile {
+      display: none; } }
 
 section#turnos .map img {
   width: 100%; }
@@ -661,11 +753,27 @@ section#trayectoria .fotos {
   display: none; }
   @media screen and (min-width: 1024px) {
     section#trayectoria .fotos {
+      padding-top: 30px;
       display: inline-block;
-      width: 50%;
+      width: 30%;
       float: right; }
-      section#trayectoria .fotos img {
+      section#trayectoria .fotos div.foto {
         width: 100%;
-        margin: 0 auto 40px; } }
+        box-shadow: 0px 0px 5px rgba(4, 47, 66, 0.4);
+        margin-bottom: 50px;
+        padding: 10px; }
+        section#trayectoria .fotos div.foto img {
+          width: 100%;
+          display: block;
+          margin: 0 auto 10px; }
+        section#trayectoria .fotos div.foto small {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 12px !important;
+          font-weight: 700 !important;
+          color: #454F53 !important;
+          line-height: 16px !important;
+          text-transform: uppercase;
+          text-align: center;
+          display: block; } }
 
 /*# sourceMappingURL=main.css.map */
